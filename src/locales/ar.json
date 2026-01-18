@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "بوابة سلمى",
+    "tagline": "Enterprise AI Gateway"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "playground": "المحادثات",
+    "data_sources": "مصادر البيانات",
+    "api_keys": "مفاتيح API",
+    "logs": "السجلات",
+    "analytics": "التحليلات",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بك في بوابة سلمى للذكاء الاصطناعي",
+    "stats": {
+      "total_requests": "إجمالي الطلبات",
+      "monthly_cost": "التكلفة الشهرية",
+      "data_sources": "مصادر البيانات",
+      "avg_latency": "متوسط زمن الاستجابة"
+    },
+    "weekly_usage": "الاستخدام الأسبوعي",
+    "recent_activity": "النشاط الأخير",
+    "quick_actions": "إجراءات سريعة",
+    "view_all": "عرض الكل"
+  },
+  "playground": {
+    "title": "المحادثات",
+    "subtitle": "اختبر بوابة الذكاء الاصطناعي",
+    "placeholder": "اكتب رسالتك هنا...",
+    "send": "إرسال",
+    "new_chat": "ابدأ محادثة جديدة",
+    "new_chat_desc": "اكتب رسالتك بالعربية أو الإنجليزية وسيتم توجيهها تلقائياً لأفضل مزود",
+    "provider_selector": "اختر المزود",
+    "auto": "تلقائي"
+  },
+  "logs": {
+    "title": "السجلات",
+    "subtitle": "سجل جميع الطلبات والاستجابات",
+    "search": "بحث في السجلات...",
+    "filter_status": "كل الحالات",
+    "filter_provider": "كل المزودين",
+    "export": "تصدير CSV",
+    "columns": {
+      "status": "الحالة",
+      "time": "الوقت",
+      "provider": "المزود",
+      "query": "الاستعلام",
+      "tokens": "Tokens",
+      "cost": "التكلفة",
+      "latency": "الزمن"
+    },
+    "showing": "عرض",
+    "of": "من",
+    "records": "سجل",
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "analytics": {
+    "title": "التحليلات",
+    "subtitle": "تقارير الاستخدام والتكاليف",
+    "total_cost": "إجمالي التكلفة (هذا الشهر)",
+    "total_requests": "إجمالي الطلبات",
+    "avg_cost": "متوسط التكلفة/طلب",
+    "cost_by_provider": "تفصيل التكلفة حسب المزود",
+    "weekly_by_provider": "الاستخدام الأسبوعي حسب المزود"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "إدارة حسابك وتفضيلاتك",
+    "tabs": {
+      "profile": "الملف الشخصي",
+      "notifications": "الإشعارات",
+      "security": "الأمان",
+      "appearance": "المظهر"
+    },
+    "profile": {
+      "full_name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "organization": "المؤسسة",
+      "save": "حفظ التغييرات"
+    },
+    "notifications": {
+      "email_reports": "إشعارات البريد الإلكتروني",
+      "email_reports_desc": "استلم تقارير الاستخدام أسبوعياً",
+      "cost_alerts": "تنبيهات التكلفة",
+      "cost_alerts_desc": "تنبيه عند تجاوز حد معين",
+      "error_alerts": "تنبيهات الأخطاء",
+      "error_alerts_desc": "إشعار فوري عند حدوث أخطاء"
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تمت العملية بنجاح",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "status": {
+      "success": "ناجح",
+      "error": "فشل",
+      "pending": "قيد الانتظار"
+    }
+  },
+  "time": {
+    "just_now": "الآن",
+    "minutes_ago": "منذ {n} دقيقة",
+    "hours_ago": "منذ {n} ساعة",
+    "days_ago": "منذ {n} يوم",
+    "last_7_days": "آخر 7 أيام",
+    "last_30_days": "آخر 30 يوم",
+    "last_3_months": "آخر 3 أشهر"
+  }
+}

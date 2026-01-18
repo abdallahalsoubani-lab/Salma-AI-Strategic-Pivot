@@ -1,0 +1,66 @@
+{
+  "app_name": "بوابة سلمى",
+  "login": {
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "submit": "تسجيل الدخول",
+    "no_account": "ليس لديك حساب؟",
+    "register_link": "إنشاء حساب جديد",
+    "error": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+  },
+  "register": {
+    "title": "إنشاء حساب جديد",
+    "full_name": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "organization": "المؤسسة",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "submit": "إنشاء حساب",
+    "has_account": "لديك حساب؟",
+    "login_link": "تسجيل الدخول"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "data_sources": "مصادر البيانات",
+    "api_keys": "مفاتيح API",
+    "logs": "السجلات",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "api_keys": {
+    "title": "مفاتيح API",
+    "create": "إنشاء مفتاح جديد",
+    "name": "الاسم",
+    "key": "المفتاح",
+    "last_used": "آخر استخدام",
+    "created_at": "تاريخ الإنشاء",
+    "status": "الحالة",
+    "actions": "إجراءات",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "delete": "حذف",
+    "copy": "نسخ",
+    "copied": "تم نسخ المفتاح",
+    "never_used": "لم يستخدم بعد",
+    "create_modal": {
+      "title": "إنشاء مفتاح API جديد",
+      "name_label": "اسم المفتاح",
+      "name_placeholder": "مثال: مفتاح التطوير",
+      "expires": "تاريخ الانتهاء (اختياري)",
+      "submit": "إنشاء",
+      "cancel": "إلغاء"
+    },
+    "new_key_warning": "احفظ هذا المفتاح الآن. لن تتمكن من رؤيته مرة أخرى!"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تمت العملية بنجاح",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل"
+  }
+}

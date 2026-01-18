@@ -1,0 +1,55 @@
+{
+  "documents": {
+    "title": "المستندات",
+    "subtitle": "إدارة ومعالجة المستندات للبحث الذكي",
+    "upload": {
+      "title": "رفع مستند",
+      "drag_drop": "اسحب الملفات هنا أو انقر للاختيار",
+      "supported": "PDF, Word, Excel, CSV, صور (حد أقصى 50MB)",
+      "uploading": "جاري رفع الملفات...",
+      "success": "تم رفع الملف بنجاح",
+      "error": "فشل رفع الملف"
+    },
+    "search": {
+      "placeholder": "ابحث في محتوى المستندات...",
+      "button": "بحث",
+      "results": "نتائج البحث",
+      "similarity": "تشابه",
+      "no_results": "لا توجد نتائج"
+    },
+    "table": {
+      "file": "الملف",
+      "type": "النوع",
+      "size": "الحجم",
+      "status": "الحالة",
+      "pages": "الصفحات",
+      "chunks": "الأجزاء",
+      "date": "التاريخ",
+      "actions": "إجراءات"
+    },
+    "status": {
+      "pending": "بانتظار",
+      "processing": "قيد المعالجة",
+      "completed": "مكتمل",
+      "failed": "فشل"
+    },
+    "actions": {
+      "view": "عرض",
+      "delete": "حذف",
+      "reprocess": "إعادة معالجة"
+    },
+    "detail": {
+      "title": "تفاصيل المستند",
+      "filename": "اسم الملف",
+      "type": "النوع",
+      "size": "الحجم",
+      "pages": "عدد الصفحات",
+      "words": "عدد الكلمات",
+      "chunks": "عدد الأجزاء",
+      "language": "اللغة",
+      "author": "المؤلف",
+      "uploaded": "تاريخ الرفع",
+      "processed": "تاريخ المعالجة"
+    }
+  }
+}

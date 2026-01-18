@@ -1,0 +1,78 @@
+{
+  "data_sources": {
+    "title": "مصادر البيانات",
+    "add_new": "إضافة مصدر جديد",
+    "no_sources": "لا توجد مصادر بيانات",
+    "no_sources_desc": "أضف مصدر بيانات للبدء في ربط أنظمتك",
+
+    "types": {
+      "postgresql": "بوستجريس كيو إل",
+      "mysql": "ماي إس كيو إل",
+      "oracle": "أوراكل",
+      "rest_api": "واجهة برمجة REST",
+      "mssql": "مايكروسوفت SQL"
+    },
+
+    "form": {
+      "name": "اسم الاتصال",
+      "name_placeholder": "مثال: قاعدة بيانات الإنتاج",
+      "type": "نوع الاتصال",
+      "host": "المضيف",
+      "host_placeholder": "مثال: db.example.com",
+      "port": "المنفذ",
+      "database": "قاعدة البيانات",
+      "database_placeholder": "اسم قاعدة البيانات",
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "base_url": "الرابط الأساسي",
+      "base_url_placeholder": "https://api.example.com",
+      "auth_type": "نوع المصادقة",
+      "auth_types": {
+        "none": "بدون مصادقة",
+        "bearer": "Bearer Token",
+        "api_key": "مفتاح API",
+        "basic": "Basic Auth"
+      },
+      "token": "التوكن",
+      "api_key": "مفتاح API",
+      "api_key_header": "اسم الرأس",
+      "test_connection": "اختبار الاتصال",
+      "testing": "جاري الاختبار...",
+      "save": "حفظ الاتصال"
+    },
+
+    "status": {
+      "connected": "متصل",
+      "disconnected": "غير متصل",
+      "error": "خطأ",
+      "testing": "جاري الاختبار"
+    },
+
+    "actions": {
+      "test": "اختبار",
+      "view_schema": "عرض الهيكل",
+      "browse_data": "تصفح البيانات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+
+    "schema": {
+      "title": "هيكل قاعدة البيانات",
+      "tables": "الجداول",
+      "columns": "الأعمدة",
+      "column_name": "اسم العمود",
+      "column_type": "النوع",
+      "nullable": "قابل للفراغ",
+      "sample_data": "معاينة البيانات",
+      "no_tables": "لا توجد جداول"
+    },
+
+    "messages": {
+      "test_success": "تم الاتصال بنجاح",
+      "test_failed": "فشل الاتصال",
+      "created": "تم إنشاء الاتصال بنجاح",
+      "deleted": "تم حذف الاتصال بنجاح",
+      "delete_confirm": "هل أنت متأكد من حذف هذا الاتصال؟"
+    }
+  }
+}

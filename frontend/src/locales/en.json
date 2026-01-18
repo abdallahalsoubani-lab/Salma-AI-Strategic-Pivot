@@ -1,0 +1,78 @@
+{
+  "data_sources": {
+    "title": "Data Sources",
+    "add_new": "Add New Source",
+    "no_sources": "No data sources",
+    "no_sources_desc": "Add a data source to start connecting your systems",
+
+    "types": {
+      "postgresql": "PostgreSQL",
+      "mysql": "MySQL",
+      "oracle": "Oracle",
+      "rest_api": "REST API",
+      "mssql": "Microsoft SQL"
+    },
+
+    "form": {
+      "name": "Connection Name",
+      "name_placeholder": "Example: Production Database",
+      "type": "Connection Type",
+      "host": "Host",
+      "host_placeholder": "Example: db.example.com",
+      "port": "Port",
+      "database": "Database",
+      "database_placeholder": "Database name",
+      "username": "Username",
+      "password": "Password",
+      "base_url": "Base URL",
+      "base_url_placeholder": "https://api.example.com",
+      "auth_type": "Authentication Type",
+      "auth_types": {
+        "none": "No Authentication",
+        "bearer": "Bearer Token",
+        "api_key": "API Key",
+        "basic": "Basic Auth"
+      },
+      "token": "Token",
+      "api_key": "API Key",
+      "api_key_header": "Header Name",
+      "test_connection": "Test Connection",
+      "testing": "Testing...",
+      "save": "Save Connection"
+    },
+
+    "status": {
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "error": "Error",
+      "testing": "Testing"
+    },
+
+    "actions": {
+      "test": "Test",
+      "view_schema": "View Schema",
+      "browse_data": "Browse Data",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+
+    "schema": {
+      "title": "Database Schema",
+      "tables": "Tables",
+      "columns": "Columns",
+      "column_name": "Column Name",
+      "column_type": "Type",
+      "nullable": "Nullable",
+      "sample_data": "Sample Data",
+      "no_tables": "No tables found"
+    },
+
+    "messages": {
+      "test_success": "Connection successful",
+      "test_failed": "Connection failed",
+      "created": "Connection created successfully",
+      "deleted": "Connection deleted successfully",
+      "delete_confirm": "Are you sure you want to delete this connection?"
+    }
+  }
+}

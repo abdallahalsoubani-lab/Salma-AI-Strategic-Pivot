@@ -1,0 +1,104 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "export": "Export",
+    "import": "Import"
+  },
+  "xai": {
+    "title": "Audit Logs",
+    "subtitle": "Track and explain all AI requests",
+    "trace": {
+      "title": "Request Details",
+      "input": "Input",
+      "output": "Output",
+      "routing": "Routing Decision",
+      "performance": "Performance",
+      "requested_provider": "Requested Provider",
+      "selected_provider": "Selected Provider",
+      "model": "Model",
+      "reason": "Reason",
+      "auto": "Auto",
+      "status": "Status",
+      "tokens": "Tokens",
+      "latency": "Latency",
+      "cost": "Cost"
+    },
+    "explanation": {
+      "title": "Decision Explanation",
+      "language": "Language",
+      "complexity": "Complexity",
+      "confidence": "Confidence",
+      "simple": "Simple",
+      "medium": "Medium",
+      "complex": "Complex",
+      "arabic": "Arabic",
+      "english": "English",
+      "alerts": "Potential Alerts",
+      "compliance": "Compliance",
+      "pii_detected": "PII Detected",
+      "no_pii": "No PII",
+      "data_sensitivity": "Data Sensitivity",
+      "low": "Low",
+      "medium_sensitivity": "Medium",
+      "high": "High"
+    },
+    "filters": {
+      "search_placeholder": "Search by Request ID...",
+      "all_statuses": "All Statuses",
+      "success": "Success",
+      "failed": "Failed",
+      "all_providers": "All Providers",
+      "last_24h": "Last 24 Hours",
+      "last_7d": "Last 7 Days",
+      "last_30d": "Last 30 Days"
+    },
+    "table": {
+      "status": "Status",
+      "request_id": "Request ID",
+      "provider": "Provider",
+      "tokens": "Tokens",
+      "cost": "Cost",
+      "latency": "Latency",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "next": "Next",
+      "previous": "Previous"
+    }
+  },
+  "compliance": {
+    "title": "Compliance Report",
+    "period": "Period",
+    "summary": "Summary",
+    "pii_incidents": "PII Incidents",
+    "blocked_requests": "Blocked Requests",
+    "data_residency": "Data Residency",
+    "audit_coverage": "Audit Coverage",
+    "recommendations": "Recommendations",
+    "enable_encryption": "Enable encryption for sensitive data",
+    "review_permissions": "Review access permissions monthly"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "summary": "Usage Summary",
+    "by_provider": "Usage by Provider",
+    "trend": "Usage Trend",
+    "top_queries": "Top Queries",
+    "total_requests": "Total Requests",
+    "total_tokens": "Total Tokens",
+    "total_cost": "Total Cost",
+    "average_latency": "Average Latency",
+    "successful_requests": "Successful Requests",
+    "failed_requests": "Failed Requests"
+  }
+}

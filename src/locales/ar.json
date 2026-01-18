@@ -1,0 +1,104 @@
+{
+  "common": {
+    "welcome": "مرحباً بك",
+    "loading": "جاري التحميل",
+    "error": "خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "export": "تصدير",
+    "import": "استيراد"
+  },
+  "xai": {
+    "title": "سجلات التدقيق",
+    "subtitle": "تتبع وشرح جميع طلبات الذكاء الاصطناعي",
+    "trace": {
+      "title": "تفاصيل الطلب",
+      "input": "المدخلات",
+      "output": "المخرجات",
+      "routing": "قرار التوجيه",
+      "performance": "الأداء",
+      "requested_provider": "المزود المطلوب",
+      "selected_provider": "المزود المختار",
+      "model": "النموذج",
+      "reason": "السبب",
+      "auto": "تلقائي",
+      "status": "الحالة",
+      "tokens": "الرموز",
+      "latency": "الكمون",
+      "cost": "التكلفة"
+    },
+    "explanation": {
+      "title": "شرح القرار",
+      "language": "اللغة",
+      "complexity": "التعقيد",
+      "confidence": "الثقة",
+      "simple": "بسيط",
+      "medium": "متوسط",
+      "complex": "معقد",
+      "arabic": "العربية",
+      "english": "الإنجليزية",
+      "alerts": "تنبيهات محتملة",
+      "compliance": "الامتثال",
+      "pii_detected": "تم اكتشاف PII",
+      "no_pii": "لا يوجد PII",
+      "data_sensitivity": "حساسية البيانات",
+      "low": "منخفضة",
+      "medium_sensitivity": "متوسطة",
+      "high": "عالية"
+    },
+    "filters": {
+      "search_placeholder": "بحث بـ Request ID...",
+      "all_statuses": "كل الحالات",
+      "success": "ناجح",
+      "failed": "فشل",
+      "all_providers": "كل المزودين",
+      "last_24h": "آخر 24 ساعة",
+      "last_7d": "آخر 7 أيام",
+      "last_30d": "آخر 30 يوم"
+    },
+    "table": {
+      "status": "الحالة",
+      "request_id": "معرف الطلب",
+      "provider": "المزود",
+      "tokens": "الرموز",
+      "cost": "التكلفة",
+      "latency": "الكمون",
+      "date": "التاريخ",
+      "actions": "إجراءات"
+    },
+    "pagination": {
+      "showing": "عرض",
+      "of": "من",
+      "next": "التالي",
+      "previous": "السابق"
+    }
+  },
+  "compliance": {
+    "title": "تقرير الامتثال",
+    "period": "الفترة",
+    "summary": "ملخص",
+    "pii_incidents": "حوادث PII",
+    "blocked_requests": "الطلبات المحظورة",
+    "data_residency": "إقامة البيانات",
+    "audit_coverage": "تغطية التدقيق",
+    "recommendations": "التوصيات",
+    "enable_encryption": "تفعيل التشفير للبيانات الحساسة",
+    "review_permissions": "مراجعة صلاحيات الوصول شهرياً"
+  },
+  "analytics": {
+    "title": "التحليلات",
+    "summary": "ملخص الاستخدام",
+    "by_provider": "الاستخدام حسب المزود",
+    "trend": "اتجاه الاستخدام",
+    "top_queries": "أكثر الاستعلامات",
+    "total_requests": "إجمالي الطلبات",
+    "total_tokens": "إجمالي الرموز",
+    "total_cost": "إجمالي التكلفة",
+    "average_latency": "متوسط الكمون",
+    "successful_requests": "الطلبات الناجحة",
+    "failed_requests": "الطلبات الفاشلة"
+  }
+}

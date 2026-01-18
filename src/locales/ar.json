@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "title": "مزود الذكاء الاصطناعي",
+    "auto": "تلقائي (موصى به)",
+    "auto_description": "اختيار تلقائي بناءً على اللغة والتعقيد",
+    "claude": "كلود (أنثروبيك)",
+    "openai": "أوبن إيه آي",
+    "jais": "جيس",
+    "jais_badge": "الأفضل للعربية",
+    "status": {
+      "active": "متاح",
+      "not_configured": "غير مُعد"
+    }
+  },
+  "routing": {
+    "strategy": "استراتيجية التوجيه",
+    "auto": "تلقائي",
+    "cost": "الأقل تكلفة",
+    "quality": "الأفضل جودة",
+    "detected_language": "اللغة المكتشفة",
+    "arabic": "العربية",
+    "english": "الإنجليزية",
+    "complexity": "مستوى التعقيد",
+    "simple": "بسيط",
+    "medium": "متوسط",
+    "complex": "معقد"
+  },
+  "models": {
+    "title": "اختر النموذج",
+    "tier": {
+      "fast": "سريع",
+      "balanced": "متوازن",
+      "powerful": "قوي",
+      "arabic": "متخصص عربي",
+      "arabic_fast": "متخصص عربي سريع"
+    }
+  },
+  "settings": {
+    "temperature": "الإبداعية",
+    "max_tokens": "الحد الأقصى للرموز",
+    "system_prompt": "التعليمات الأساسية"
+  }
+}

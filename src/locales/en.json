@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "title": "AI Provider",
+    "auto": "Auto (Recommended)",
+    "auto_description": "Automatic selection based on language and complexity",
+    "claude": "Claude (Anthropic)",
+    "openai": "OpenAI",
+    "jais": "Jais",
+    "jais_badge": "Best for Arabic",
+    "status": {
+      "active": "Active",
+      "not_configured": "Not Configured"
+    }
+  },
+  "routing": {
+    "strategy": "Routing Strategy",
+    "auto": "Auto",
+    "cost": "Cost Optimized",
+    "quality": "Quality First",
+    "detected_language": "Detected Language",
+    "arabic": "Arabic",
+    "english": "English",
+    "complexity": "Complexity Level",
+    "simple": "Simple",
+    "medium": "Medium",
+    "complex": "Complex"
+  },
+  "models": {
+    "title": "Select Model",
+    "tier": {
+      "fast": "Fast",
+      "balanced": "Balanced",
+      "powerful": "Powerful",
+      "arabic": "Arabic Specialized",
+      "arabic_fast": "Arabic Specialized Fast"
+    }
+  },
+  "settings": {
+    "temperature": "Creativity",
+    "max_tokens": "Max Tokens",
+    "system_prompt": "System Instructions"
+  }
+}
